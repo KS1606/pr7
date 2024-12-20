@@ -1,0 +1,36 @@
+name: .NET Framework 
+
+on:
+  push:
+    branches:
+      - new_vetochka
+
+  pull_request:
+    branches:
+      - new_vetochka
+
+jobs:
+    build:
+        runs-on: windows-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
+
+            - name: Install .NET Framework Developer Pack
+              run: choco install netfx-4.7.2-devpack -y
+
+            - name: Set up MSBuild
+              uses: microsoft/setup-msbuild@v1
+
+            - name: Build with MSBuild
+              run: msbuild /p:Configuration=Release
+
+            - name: Install XAML Styler
+              run: dotnet tool install -g XamlStyler.Console
+
+            - name: Format XAML files
+              run: xstyler -d ./
+
+            - name: Check for changes after formatting
+              run: git diff --exit-code
+
