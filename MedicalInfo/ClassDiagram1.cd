@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MedicalInfo.BookAppointmentWindow">
+    <Position X="4.75" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAIAAEAAAAAAAAAAAAABAAAAAAAAgAAQ=</HashCode>
+      <FileName>BookAppointmentWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MedicalInfo.DoctorProfileWindow">
+    <Position X="8" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DoctorProfileWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MedicalInfo.DoctorsListWindow">
+    <Position X="11.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAACAAAAAEAAAAABBAAAAAAAAIAAAA=</HashCode>
+      <FileName>DoctorsListWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MedicalInfo.GlavDoctorWindow">
+    <Position X="2.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GlavDoctorWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MedicalInfo.GlavWindow">
+    <Position X="1" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAACAAAAAEEAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>GlavWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MedicalInfo.MainWindow">
+    <Position X="13.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAQAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MedicalInfo.MedicalHistoryModel">
+    <Position X="2.5" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAAAAAAAAAAAJAAgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>MedicalHistoryModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedicalInfo.DiagnosisModel">
+    <Position X="0.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAgAAAAAABAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MedicalHistoryModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedicalInfo.TreatmentRecordModel">
+    <Position X="4.25" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gBgAAQAAAAAgAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>MedicalHistoryModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedicalInfo.ServiceModel">
+    <Position X="0.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAABAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MedicalHistoryModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedicalInfo.PrescriptionModel">
+    <Position X="4.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAIIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MedicalHistoryModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MedicalInfo.MedicalHistoryPage">
+    <Position X="9.25" Y="4.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAACAAAACAAEAABAAAIABAIAASgAAAABAQ=</HashCode>
+      <FileName>MedicalHistoryPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MedicalInfo.PatientProfileWindow">
+    <Position X="15.75" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAQAAACABIAAAGAAAAgkEIAAAAABAAAAACAAEAAQ=</HashCode>
+      <FileName>PatientProfileWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MedicalInfo.RegisterWindow">
+    <Position X="7" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>RegisterWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Windows.Window" Collapsed="true">
+    <Position X="13" Y="4.75" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="2.5" Y="5.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
