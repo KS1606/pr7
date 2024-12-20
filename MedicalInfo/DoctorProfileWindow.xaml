@@ -4,46 +4,46 @@
         Title="Главное окно" Height="650" Width="1200" ResizeMode="CanResize" WindowStartupLocation="CenterScreen"
         Background="#F1F8FB">
     <Window.Resources>
-        <!-- Стиль для заголовков -->
-        <Style TargetType="TextBlock" x:Key="HeaderText">
-            <Setter Property="FontSize" Value="20"/>
-            <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="Foreground" Value="#2D5F7A"/>
-            <Setter Property="Margin" Value="10,5,0,15"/>
-        </Style>
+    <!-- Стиль для заголовков -->
+    <Style TargetType="TextBlock" x:Key="HeaderText">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Foreground" Value="#2D5F7A"/>
+        <Setter Property="Margin" Value="10,5,0,15"/>
+    </Style>
 
-        <!-- Стиль для текста -->
-        <Style TargetType="TextBlock" x:Key="ContentText">
-            <Setter Property="FontSize" Value="18"/>
-            <Setter Property="Foreground" Value="#163172"/>
-            <Setter Property="Margin" Value="10,5"/>
-        </Style>
+    <!-- Стиль для текста -->
+    <Style TargetType="TextBlock" x:Key="ContentText">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="Foreground" Value="#163172"/>
+        <Setter Property="Margin" Value="10,5"/>
+    </Style>
 
-        <!-- Стиль для кнопок в боковом меню -->
-        <Style TargetType="Button" x:Key="MenuButton">
-            <Setter Property="FontSize" Value="20"/>
-            <Setter Property="Foreground" Value="#E3FDFD"/>
-            <Setter Property="Background" Value="Transparent"/>
-            <Setter Property="Margin" Value="0,5,0,5"/>
-            <Setter Property="Padding" Value="10"/>
-            <Setter Property="HorizontalContentAlignment" Value="Left"/>
-            <Setter Property="Cursor" Value="Hand"/>
-            <Setter Property="BorderThickness" Value="0"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}" CornerRadius="10" Padding="{TemplateBinding Padding}">
-                            <ContentPresenter HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#163172"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
+    <!-- Стиль для кнопок в боковом меню -->
+    <Style TargetType="Button" x:Key="MenuButton">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Foreground" Value="#E3FDFD"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Margin" Value="0,5,0,5"/>
+        <Setter Property="Padding" Value="10"/>
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" CornerRadius="10" Padding="{TemplateBinding Padding}">
+                        <ContentPresenter HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#163172"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
 
         <!-- Стиль для основного содержимого -->
         <Style TargetType="Border" x:Key="ContentBorder">
